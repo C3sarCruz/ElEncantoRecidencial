@@ -1,0 +1,732 @@
+<script src="flujo.js" type="text/javascript"></script>
+<link href="flujo.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Flujo de Efectivo</title>
+<div class="headerF">
+    <p>
+        Estado de Flujo de Efectivo
+    </p>
+    <p>
+        Del 1 de Enero al 31 de Diciembre de 2022
+    </p>
+</div>
+<div class="offsetR">
+
+    <body>
+        <div class="contenidof">
+            <div class="contenido">
+                <!-- █▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ACTIVIDADES DE OPERACIÓN ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇█-->
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                ACTIVIDADES DE OPERACIÓN
+                            </td>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                PERIODO ACTUAL
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <!-- ◝───────────────────────────────────────────⊰·ORIGEN.-1·⊱─────────────────────────────────────────────────◜ -->
+
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 100px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O('contenidoO')">
+                                ORIGEN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_O('contenidoO')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O('contenidoO')">
+                                2,912,627
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoO">
+                    <div id="cerrarO" style="font-size: 40px;"><a style="text-decoration: none; color: #434655;"
+                            href="javascript:cerrarO()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Ingresos por cuotas de mantenimiento
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    3,136,207
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Descuentos por cuotas de mantenimiento
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    -284,409
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Penalización
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    6,402
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Intereses moratorios
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    4,082
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Otros ingresos
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    28,342
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Intereses por inversiones
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    11,362
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Couta extraordinaria 2021
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    10,640
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- ◝───────────────────────────────────────────⊰·APLICACIÓN.-1·⊱─────────────────────────────────────────────────◜ -->
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 100px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A('contenidoA')">
+                                APLICACIÓN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_A('contenidoA')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style=" width: 50%; height: 100px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A('contenidoA')">
+                                3,345,827
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoA">
+                    <div id="cerrarA" style="font-size: 40px;"><a style="text-decoration: none; color: #434655;"
+                            href="javascript:cerrarA()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Gastos de administración
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    478,879
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Gastos de mantenimiento
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    804,920
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Mantenimiento de edificio
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    1,080,868
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Mantenimento de albercas
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    87,951
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Fuentes
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Jardinería
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    282,292
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Seguridad
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    610,916
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style=" width: 50%; height: 100px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                                FLUJO NETO DE LAS ACTIVIDADES DE OPERACIÓN
+                            </td>
+                            <td
+                                style=" width: 50%; height: 100px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; text-decoration: underline; border-radius: 10px;">
+                                -433,200
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="shine">
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- █▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ACTIVIDADES DE INVERSIÓN ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇█-->
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                ACTIVIDADES DE INVERSIÓN
+                            </td>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                PERIODO ACTUAL
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- ◝───────────────────────────────────────────⊰·ORIGEN.-2·⊱─────────────────────────────────────────────────◜ -->
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O2('contenidoO2')">
+                                ORIGEN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_O2('contenidoO2')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O2('contenidoO2')">
+                                0.00
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoO2">
+                    <div id="cerrarO2" style="font-size: 40px;"><a style="text-decoration: none; color: #434655;"
+                            href="javascript:cerrarO2()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de Anticipos a proveedores
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de cuentas por cobrar a Condóminos
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de impuestos por acreeditar
+                                </td>
+                                <td
+                                    style="width: 30%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- ◝───────────────────────────────────────────⊰·APLICACIÓN.-2·⊱─────────────────────────────────────────────────◜ -->
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A2('contenidoA2')">
+                                APLICACIÓN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_A2('contenidoA2')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A2('contenidoA2')">
+                                75,542
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoA2">
+                    <div id="cerrarA2" style="font-size: 40px;"><a style="text-decoration: none; color: #434655;"
+                            href="javascript:cerrarA2()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de impuestos por acreeditar
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de cuentas por cobrar a Deudores diversos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    17,000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Anticipos a proveedores
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Bienes muebles
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    15,895
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de cuentas por cobrar a Condóminos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    39,783
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Bienes muebles e intangibles
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de Descuentos por aplicar a condóminos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    2,863
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                                FLUJO NETO DE EFECTIVO DE LAS ACTIVIDADES DE INVERSIÓN
+                            </td>
+                            <td
+                                style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; text-decoration: underline; border-radius: 10px;">
+                                -75,542
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="shine">
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- █▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ACTIVIDADES DE FINANCIAMIENTO▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇██▇▅▄▃▂▁ ▁▂▃▄▅▇█-->
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                ACTIVIDADES DE FINANCIAMIENTO
+                            </td>
+                            <td
+                                style="width: 50%; height: 60px; font-size: 50px; font-weight: 600; text-align: center; color: #434655;">
+                                PERIODO ACTUAL
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- ◝───────────────────────────────────────────⊰·ORIGEN.-3·⊱─────────────────────────────────────────────────◜ -->
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O3('contenidoO3')">
+                                ORIGEN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_O3('contenidoO3')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                            <a style='cursor: pointer;' onClick="muestra_O3('contenidoO3')">
+                                422,944
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoO3">
+                    <div id="cerrarO3" style="font-size: 40px;"><a style="text-decoration: noen; color:#434655;"
+                            href="javascript:cerrarO3()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento a proveedores
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    1,871
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento acredores diversos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    191,999
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Depreciación
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    129,778
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de impuestos por pagar
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de ingresos por realizar
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    39,786
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Incremento de anticipos de condóminos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    59,510
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- ◝───────────────────────────────────────────⊰·APLICACIÓN.-3·⊱─────────────────────────────────────────────────◜ -->
+                <table style="border-collapse: collapse; width: 100%; height: 70px;">
+                    <tbody>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A3('contenidoA3')">
+                                APLICACIÓN
+                            </a>
+                            <p>
+                                <button class="learn-more" style='cursor: pointer; font-size: 40px; line-height: 80px;'
+                                    onClick="muestra_A3('contenidoA3')">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Desplegar</span>
+                                </button>
+                            </p>
+                        </td>
+                        <td
+                            style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue;">
+                            <a style='cursor: pointer;' onClick="muestra_A3('contenidoA3')">
+                                10,369
+                            </a>
+                        </td>
+                    </tbody>
+                </table>
+
+                <div id="contenidoA3">
+                    <div id="cerrarA3" style="font-size: 40px;"><a style="text-decoration: none; color: #434655;"
+                            href="javascript:cerrarA3()">🆇</a></div>
+                    <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de impuuestos por pagar
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    10,369
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de anticipos de condóminos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de Descuentos por aplicar a condóminos
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style="width: 70%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: left;">
+                                    Disminucion de ingresos por realizar
+                                </td>
+                                <td
+                                    style="width: 50%; height: 80px; font-family: Lucida Sans Unicode; font-size: 38px; text-align: right;">
+                                    0
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <table style="border-collapse: collapse; width: 100%; height: 100px;">
+                    <tbody>
+                        <tr>
+                            <td
+                                style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: center; background-color: aliceblue; border-radius: 10px;">
+                                FLUJO NETO DE EFECTIVO DE LAS ACTIVIDADES DE FINANCIAMIENTO
+                            </td>
+                            <td
+                                style=" width: 50%; height: 60px; font-family: Lucida Sans Unicode; font-weight: 800; font-size: 42px; color: #434655; text-align: center; background-color: aliceblue; text-decoration: underline; border-radius: 10px;">
+                                412,575
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="shine">
+                <br>
+                <br>
+                <br>
+                <br>
+                <table style="border-collapse: collapse; width: 100%; height: 183px;">
+                    <tbody>
+                        <tr style="height: 60px;">
+                            <td
+                                style=" width: 80%; height: 130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: left; background-color: aliceblue; border-radius: 10px; letter-spacing: 2.5;">
+                                INCREMENTO/DISMINUCIÓN NETA EN EL EFECTIVO Y EQUIVALENTES AL EFECTIVO
+                            </td>
+                            <td
+                                style=" width: 50%; height: 130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: right; background-color: aliceblue; border-radius: 10px; letter-spacing: 2.5;">
+                                -96,167
+                            </td>
+                        </tr>
+                        <tr style="height: 66px;">
+                            <td
+                                style=" width: 70%; height: 130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: left; background-color: aliceblue; letter-spacing: 2.5;">
+                                EFECTIVO Y EQUIVALENTES AL EFECTIVO AL INICIO DEL PERIODO
+                            </td>
+                            <td
+                                style=" width: 50%; height: 130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: right; background-color: aliceblue; letter-spacing: 2.5;">
+                                619,186
+
+                            </td>
+                        </tr>
+                        <tr style="height: 62px;">
+                            <td
+                                style=" width: 70%; height:130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: left; background-color: aliceblue; border-radius: 10px; letter-spacing: 2.5;">
+                                EFECTIVO Y EQUIVALENTES AL EFECTIVO AL FINAL DEL PERIODO
+                            </td>
+                            <td
+                                style=" width: 50%; height: 130px; font-family: Lucida Sans Unicode; font-weight: 700; font-size: 38px; color: #434655; text-align: right; background-color: aliceblue; border-radius: 10px; letter-spacing: 2.5;">
+                                523,019
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <br>
+        </div>
+
+
+        <button class="button-82-pushable" role="button">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text"><a href="javascript:history.back()"
+                    style="text-decoration: none; color: white;">Volver ⮌</a>
+            </span>
+        </button>
+    </body>
+
+</div>
+<hr>
+<footer>
+    <p> &copy; - Residencial Encanto</p>
+</footer>
